@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(25, 97, 39);
+/* long version 
+    border-style: 
+    border-color: #0f0;
+    border-width: thick;
+    short version */
+    
+    border: dotted rgb(123, 201, 111) thick; 
+    /* order doesn't matter, just need to give all three */
+    background: rgb(198,228,139);
+
+    padding: 50px 60px 70px 80px;
+    margin: 70px;
+   
+}
+
+div {
+    font-family: monospace;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    border: solid purple 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
