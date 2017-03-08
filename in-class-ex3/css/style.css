@@ -1,15 +1,15 @@
 h1 {
     color: white;
-    background-color: #191970;
+    background: #191970;
     padding: 10px;
 }
 
 h2 {
     color: #191970;
-    background-color: #aeaed4;
+    background: #aeaed4;
     padding: 10px;
 }
 
 html {
-    background-color: #e6e6fa;
+    background: #e6e6fa;
 }
