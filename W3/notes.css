@@ -1,0 +1,56 @@
+html
+
+<div></div>
+
+css
+
+div {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  display: inline-block;
+}
+
+div:nth-child(2) {
+  height: 200px;
+  vertical-align: top;
+}
+
+/*one option to display elements in blocks next to eachother*/
+
+.banner {
+  background: red;
+  width: 100%;
+  line-height: 150px;
+  text-align: center;
+
+}
+
+nav {
+  height: 50px;
+  background: blue;
+  text-align: center;
+}
+
+aside {
+  height: calc(100vh - 250px); //250 is minus nav + banner + footer = 250
+  background: aqua;
+  width: 30%;
+  float: left;
+}
+
+main {
+  float: left;
+  width: 70%;
+  background: pink;
+  height: calc(100vh - 250px); //same as aside height
+}
+
+footer {
+  background: red;
+  height: 50px;
+  clear: both;
+}
+
+
+
