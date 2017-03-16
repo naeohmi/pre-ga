@@ -4,49 +4,48 @@
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    position: relative;
+}
+
 #bodie {
     width: 300px;
     top: 100px;;
     left: 250px;;
-    position: relative;
 }
 #eyes {
     width: 150px;
     top: -110px;
     left: 25px;
-    position: relative;
 }
 
 #hat {
     width: 250px;
     top: -200px;
     left: -180px;
-    position: relative;
 }
 #mouth {
     width: 150px;
     top: 20px;
     left: -380px;
-    position: relative;
 }
 
 #mustache {
     width: 150px;
     top: -160px;
     left: 335px;
-    position: relative;
 }
 
 #nose {
     width: 120px;
     top: -200px;
     left: 200px;
-    position: relative;
 }
 
 #shoes {
     width: 300px;
     top: 9px;
     left: -20px;
-    position: relative;
+    z-index: -1;
 }
